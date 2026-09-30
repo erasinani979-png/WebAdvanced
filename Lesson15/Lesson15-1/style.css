@@ -1,0 +1,58 @@
+div#Static{
+    position: static;
+    border: 3px solid black;
+    height: 250px;
+    width: 200px;
+    padding: 20px;
+}
+
+div#Relative{
+    position: Relative;
+    border: 3px solid black;
+    height: 250px;
+    width: 200px;
+    padding: 20px;
+    left: 20px;
+    top: 20px;
+}
+
+div#Fixed{
+    position: fixed;
+    border: 3px solid black;
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+    left: 200px;
+    top: 100px;
+}
+
+h1#Fixed{
+    position: fixed;
+    right: 300px;
+    top: 20px;
+}
+
+div#parent{
+    position: relative;
+    width: 250px;
+    height: 200px;
+    border: 3px solid blue;
+}
+
+div#absolute{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    right: 80px;
+    top: 70px;
+    color: white;
+}
+
+div#sticky{
+    position: sticky;
+    top: 0;
+    background-color: blue;
+    padding: 20px;
+    color: white;
+}
