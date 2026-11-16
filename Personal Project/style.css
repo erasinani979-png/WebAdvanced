@@ -1,30 +1,143 @@
-body{
+*{
     margin: 0;
-    font-family: 'Titillium Web', sans-serif;
-}
-#section-1{
-    background-color:  pink;
-    height: 600px;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.conteiner{
-    margin-left: auto;
-    margin-right: auto;
-    height: 100%;
+body{
+    background-color: #171410;
+    color: #e8dfcf;
+    font-family: Arial, sans-serif;
 }
 
-header{
-    padding: 55px;
+.navbar{
+    width: 100%;
+    height: 100px;
+    padding: 0 8%;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #171410;
 }
 
-nav ul li{
-    display: inline-block;
-    padding: 10px 20px;
+.logo{
+    font-family: Georgia, serif;
+    font-size: 25px;
+    color: #d6c4a0;
 }
 
-nav ul li a{
+.logo span{
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: 4px;
+}
+
+nav{
+    display: flex;
+    gap: 35px;
+}
+
+nav a{
+    color: #e8dfcf;
     text-decoration: none;
-    color: white;
+    font-size: 13px;
+    letter-spacing: 1px;
 }
+
+.hero{
+    text-align: center;
+    padding: 55px 20px 60px;
+}
+
+.subtitle{
+    color: #bda77e;
+    font-size: 12px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+.hero h1{
+    font-family: Georgia, serif;
+    font-size: 48px;
+    font-weight: normal;
+    maargin-bottom: 18px;
+}
+
+.description{
+    color: #c4bbae;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+.hero-image{
+    display: block;
+    width: 600px;
+    max-width: 90%;
+    height: 330px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px){
+    .navbar{
+        padding: 0 5%;
+    }
+
+    nav{
+        gap: 12px;
+    }
+
+    nav a{
+        font-size: 10px;
+    }
+    .logo{
+        font-size: 19px;
+    }
+
+    .hero h1{
+        font-size: 34px;
+    }
+
+    .hero-image{
+        height: 230px;
+    }
+}
+
+.logo{
+    font-family: Georgia, serif;
+    font-size: 28px;
+    font-weight: normal;
+    letter-spacing: 4px;
+    color: #d6c4a0;
+}
+
+.logo span{
+    display: block;
+    font-family: Georgia, serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.hero h1{
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 46px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 18px;
+}
+
+.hero-image{
+    display: block;
+    width: 650px;
+    max-width: 92%;
+    height: 360px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
