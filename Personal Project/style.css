@@ -11,7 +11,6 @@ body {
     font-family: Georgia, serif;
 }
 
-/* NAVBAR */
 
 .navbar {
     display: flex;
@@ -45,7 +44,6 @@ nav a:hover {
     opacity: 0.7;
 }
 
-/* HOME */
 
 .hero {
     text-align: center;
@@ -80,7 +78,6 @@ nav a:hover {
     margin: auto;
 }
 
-/* GENERAL SECTIONS */
 
 .section {
     padding: 65px 8%;
@@ -100,7 +97,6 @@ nav a:hover {
     color: white;
 }
 
-/* ABOUT US */
 
 .about {
     display: flex;
@@ -119,7 +115,6 @@ nav a:hover {
     object-fit: cover;
 }
 
-/* OUR SPECIALTIES */
 
 .specialties {
     display: grid;
@@ -143,7 +138,6 @@ nav a:hover {
     text-align: center;
 }
 
-/* SERVICES */
 
 .services {
     display: flex;
@@ -171,13 +165,11 @@ nav a:hover {
     color: white;
 }
 
-/* CONTACT */
 
 .contact p {
     margin-bottom: 8px;
 }
 
-/* FOOTER */
 
 footer {
     background-color: #090909;
@@ -187,7 +179,26 @@ footer {
     color: white;
 }
 
-/* MOBILE */
+
+/* BOOK A TABLE BUTTON */
+
+.book-button {
+    display: inline-block;
+    color: white;
+    border: 1px solid white;
+    padding: 13px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+    transition: 0.3s;
+}
+
+.book-button:hover {
+    background-color: white;
+    color: black;
+}
+
 
 @media (max-width: 700px) {
 
