@@ -180,26 +180,6 @@ footer {
 }
 
 
-/* BOOK A TABLE BUTTON */
-
-.book-button {
-    display: inline-block;
-    color: white;
-    border: 1px solid white;
-    padding: 13px 30px;
-    text-decoration: none;
-    font-size: 14px;
-    letter-spacing: 2px;
-    margin-bottom: 35px;
-    transition: 0.3s;
-}
-
-.book-button:hover {
-    background-color: white;
-    color: black;
-}
-
-
 @media (max-width: 700px) {
 
     .navbar {
