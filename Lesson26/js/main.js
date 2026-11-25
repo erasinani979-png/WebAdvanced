@@ -68,3 +68,30 @@ console.log(x != y);
 var num1 = 100;
 var num2 = 10;
 console.log(num1 > num2);
+
+var num3 = 1;
+var num4 = 2;
+console.log(num3 < num4);
+
+var num5 = 123;
+var num6 = "123";
+console.log(num5 === num6);
+
+var firstName = "Digital";
+var lastName = "School";
+var fullName = firstName + " " + lastName;
+
+var school = "Digital School";
+
+console.log('Hello from ${school}');
+
+var age =24;
+console.log(age >=18 && age <= 65);
+
+var var1= 5;
+var var2 = 6;
+console.log(var1 == 5 || var2 == 6);
+
+var var3 = 9;
+var var4 = 10;
+console.log(!(var3 == var4));
